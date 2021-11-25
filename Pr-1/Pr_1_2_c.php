@@ -6,7 +6,7 @@
         <?php
         function myTest() {
             static $x = 0;
-            echo "$x <br>";
+            echo "$x<br>";
             $x++;
           }
           

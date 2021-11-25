@@ -16,7 +16,7 @@
     }
 
     myTest();
-    echo "is is globaly used variable:- $y";
+    echo "is is globaly used variable :- $y";
     ?>
 </body>
 
