@@ -1,5 +1,7 @@
 <html>
-
+<head>
+    <title>Practical 1.9</title>
+</head>
 <body>
   <?php
 

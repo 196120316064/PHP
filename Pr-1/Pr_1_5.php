@@ -1,5 +1,7 @@
 <html>
-
+<head>
+    <title>Practical 1.5</title>
+</head>
 <body>
     <?php
     function Factorial($n)

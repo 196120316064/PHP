@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Practical 1.1</title>
+    <title>Practical 1.3(C)</title>
 </head>
 
 <body>

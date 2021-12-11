@@ -1,3 +1,8 @@
+<html>
+<head>
+    <title>Practical 1.13</title>
+</head>
+<body>
 <?php
 echo "This is a numeric array:- ";
 $numeric=array(1,2,3,4,5,6,7,8,9,10);
@@ -24,3 +29,6 @@ for ($i=0; $i < 3 ; $i++) {
 
 
 ?>
+</body>
+
+</html>

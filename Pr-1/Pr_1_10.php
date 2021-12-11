@@ -1,3 +1,8 @@
+<html>
+<head>
+    <title>Practical 1.10</title>
+</head>
+<body>
 <?php
 
 echo "Using Call by value:- ";
@@ -20,3 +25,6 @@ echo callbyreference($x,$y);
 
 
 ?>
+</body>
+
+</html>

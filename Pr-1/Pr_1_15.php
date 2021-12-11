@@ -1,3 +1,8 @@
+<html>
+<head>
+    <title>Practical 1.15</title>
+</head>
+<body>
 <?php
 
 function peraArgs($a,$b)
@@ -33,3 +38,6 @@ defArgs();
 echo "<br><br>Using returning argument:- ",returnArgs(5,2);
 echo "<br><br>This is a variable length argument:- ",add(1, 2, 3, 4);  
 ?>
+</body>
+
+</html>

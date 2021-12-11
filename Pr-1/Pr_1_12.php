@@ -1,3 +1,8 @@
+<html>
+<head>
+    <title>Practical 1.12</title>
+</head>
+<body>
 <?php
     $a = array(array(2,3),array(5,6));
     $b = array(array(1,2),array(9,5));
@@ -16,3 +21,6 @@
         echo "<br>";
     }
 ?>
+</body>
+
+</html>

@@ -1,5 +1,7 @@
 <html>
-
+<head>
+    <title>Practical 1.7</title>
+</head>
 <body>
     <?php
     $s1 = 86;

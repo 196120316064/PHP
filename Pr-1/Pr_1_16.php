@@ -1,3 +1,8 @@
+<html>
+<head>
+    <title>Practical 1.16</title>
+</head>
+<body>
 <?php
 echo "<b>Var Args</b>";
 
@@ -27,3 +32,6 @@ function vararg(...$a) {
 echo "<b>Passed variable : 10, 30, 45, 5, 3, 25</b>";
 vararg(10, 30, 45, 5, 3, 25);
 ?>
+</body>
+
+</html>

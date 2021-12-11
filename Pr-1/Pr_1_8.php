@@ -1,5 +1,7 @@
 <html>
-
+<head>
+    <title>Practical 1.8</title>
+</head>
 <body style="font-family: 'Times New Roman', Times, serif;  ">
   <?php
   $x = 1;

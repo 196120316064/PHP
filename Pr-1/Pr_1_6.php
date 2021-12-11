@@ -1,5 +1,7 @@
 <html>
-
+<head>
+    <title>Practical 1.6</title>
+</head>
 <body>
     <?php
     $count = 1;
