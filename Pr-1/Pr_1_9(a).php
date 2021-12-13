@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Practical 1.9</title>
+    <title>Practical 1.9(A)</title>
 </head>
 <body>
   <?php
