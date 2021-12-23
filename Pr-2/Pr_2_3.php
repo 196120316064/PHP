@@ -1,3 +1,10 @@
+<html>
+
+<head>
+    <title>Practical 2.3</title>
+</head>
+
+<body>
 <?php
 
 echo "<h3>String functions</h3>";
@@ -75,7 +82,6 @@ echo "<h4> 14} strrev() </h4>";
 echo "Value is <b>Dr. s. & s.s. ghanidhi collage</b> after appling strrev() Ans is <b>".strrev("Dr. s. & s.s. ghanidhi collage").".</b><br>";
 echo "Value is <b>Sanghani Rihil</b> after appling strrev() Ans is <b>".strrev("Sanghani Rihil").".</b><br>";
 echo "Value is <b>196120316064</b> after appling strrev() Ans is <b>".strrev("196120316064").".</b><br>";
-
-
-
 ?>
+</body>
+</html>
