@@ -34,7 +34,7 @@
         print_r($g);
         echo "</b><br> Than after appling str_replace() <b>{ darshan }</b> replace with <b>{ prince }</b><br>";
         echo  "<b> Ans :-n";
-        print_r(str_replace("dorshan","prince",$g,$h));
+        print_r(str_replace("darshan","prince",$g,$h));
         echo "<br></b>";
         echo"How much values are replaced :- <b>$h</b><br><br>";
 
