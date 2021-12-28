@@ -7,7 +7,7 @@
 <body>
     <?php
         date_default_timezone_set("Asia/Calcutta");
-        echo "<h1>getdate() & chrckdate()</h1>";
+        echo "<h1>getdate() & checkdate()</h1>";
         
         echo "<h1>getdate()</h1>";
         print_r(getdate());

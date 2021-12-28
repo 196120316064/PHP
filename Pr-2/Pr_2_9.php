@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Practical 2.6</title>
+    <title>Practical 2.8</title>
 </head>
 
 <body>
