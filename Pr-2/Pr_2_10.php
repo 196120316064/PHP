@@ -96,16 +96,16 @@
             end($c);
             echo "<br>Now pointer is on ".current($c)." So after appling end() Ans is:- ".end($c)."<br>";
 
-            echo "<h2>each()</h2>It returns key and value of current poinetr's element of an array<br>";
-            print_r($b);
-            prev($b); 
-            echo "<br>Now pointer is on ".current($b)." So after appling end() Ans is:- ";
-            print_r(each($b));           
-            echo "<br>Now pointer is on ".current($b)." So after appling end() Ans is:- ";
-            print_r(each($b)); 
-            echo "<br>Now pointer is on ".current($b)." So after appling end() Ans is:- ";
-            print_r(each($b));
-            echo "It is not return any ans mince array doesn't have any more element <br>";
+            // echo "<h2>each()</h2>It returns key and value of current poinetr's element of an array<br>";
+            // print_r($b);
+            // prev($b); 
+            // echo "<br>Now pointer is on ".current($b)." So after appling end() Ans is:- ";
+            // print_r(each($b));           
+            // echo "<br>Now pointer is on ".current($b)." So after appling end() Ans is:- ";
+            // print_r(each($b)); 
+            // echo "<br>Now pointer is on ".current($b)." So after appling end() Ans is:- ";
+            // print_r(each($b));
+            // echo "It is not return any ans mince array doesn't have any more element <br>";
 
             echo "<h2>sort()</h2> It returns array in assending order<br>";
             $z = array(4,6,34,2,56,8,34,34,67,8,3,2);
