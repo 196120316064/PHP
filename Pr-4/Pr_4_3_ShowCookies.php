@@ -13,7 +13,7 @@
     }
     else {
         echo "Cookie is not set please try again <br>";
-        echo '<a href="Pr_4_3.php">Click on it for check cookies are set or not</a>';
+        echo '<a href="Pr_4_3.php">Click on it for try Again</a>';
     }
     ?>
 </body>

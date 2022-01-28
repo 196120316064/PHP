@@ -10,7 +10,7 @@
     <?php
         $name = $_POST["username"];
         $pass = $_POST["password"];
-        if(isset($_POST["username"]) && isset($_POST["password"]))
+        if($name=="Rihil Sanghani" and $pass=="95371")
         {
             setcookie("UserName",$name);
             setcookie("Password",$pass);
@@ -18,8 +18,8 @@
             echo '<a href="Pr_4_3_ShowCookies.php">Click on it for check cookies are set or not</a>';
         }
         else {
-            echo 'please fill your details<br>';
-            echo '<a href="Pr_4_3.php">Click on it for check cookies are set or not</a>';
+            echo 'please fill your right details<br>';
+            echo '<a href="Pr_4_3.php">Click on it for try again</a>';
         }
     ?>
 </body>
