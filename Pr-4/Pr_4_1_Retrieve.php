@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            Practical 4.1 Retrive
+            Practical 4.1 Retriev
         </title>
     </head>
     <body>
