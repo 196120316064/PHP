@@ -7,32 +7,70 @@
 </head>
 
 <body>
-    <form action="Pr_5_9_insert_record.php" method="post" style="border: 2px dotted blue;text-align:center; width: 400px;">
-        <p>
-            Employee Name: <input required name="username" type="text" maxlength="20">
-        </p>
-        <p>
-            Employee Mobile No: <input required name="mobileNo" type="text" minlength="10" maxlength="10">
-        </p>
-        <p>
-            Employee Email: <input required name="emailId" type="text">
-        </p>
-        <p>
-            Employee Age: <input required name="age" type="text" minlength="2">
-        </p>
-        <p>
-            Employee Occupation: <input required name="occupation" type="text" maxlength="20">
-        </p>
-        <p>
-            Employee Salary: <input required name="salary" type="text" minlength="2" maxlength="7">
-        </p>
-        <p>
-            Employee Designation: <input required name="designation" type="text" maxlength="20">
-        </p>
-        <p>
-            Password: <input required name="password" type="password">
-        </p>
-        <p><input required type="submit" value="Login"> </p>
+    <form action="Pr_5_9_insert_record.php" method="post">
+        <table border="1">
+            <tr>
+                <td>
+                    Employee Name:
+                </td>
+                <td>
+                    <input name="username" type="text" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Employee Mobile No:
+                </td>
+                <td>
+                    <input name="mobileNo" readonly=true type="text" minlength="10" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Employee Email:
+                </td>
+                <td>
+                    <input name="emailId" type="text" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Employee Age:
+                </td>
+                <td>
+                    <input name="age" type="text" minlength="2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Employee Occupation:
+                </td>
+                <td>
+                    <input name="occupation" type="text" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Employee Salary:
+                </td>
+                <td>
+                    <input name="salary" type="text" minlength="2" maxlength="7">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Employee Designation:
+                </td>
+                <td>
+                    <input name="designation" type="text" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
     </form>
 </body>
 

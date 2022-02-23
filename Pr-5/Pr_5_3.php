@@ -14,7 +14,7 @@
                 echo "<h1>Connection unsuccessfull please try again </h1>";
             }
 
-            $sql = "INSERT INTO Customer VALUES (101013, 'Darshan Vora', 'Surat','Mouse','9537118137')";
+            $sql = "INSERT INTO Customer VALUES (101014, 'Darshak kakadiya', 'Vadodara','keyboard','8980506410')";
 
             if ($conn->query($sql) === TRUE) {
                 echo "<br><h1>New record created successfully</h1>";

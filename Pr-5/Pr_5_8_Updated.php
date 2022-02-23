@@ -1,9 +1,8 @@
-    
 <html>
 
 <head>
     <title>
-        Practical 5.4
+        Practical 5.8
     </title>
 </head>
 
@@ -24,10 +23,12 @@
             echo "<h1>Connection unsuccessfull please try again </h1>";
         }
 
-        $sql = "INSERT INTO employee VALUES ('$name',$mobileNo,'$email',$age,'$occupation',$salary,'$designation')";
+        $sql = "UPDATE employee SET E_Name = '$name',E_Email_Id='$email',E_Age='$age',E_occupation='$occupation',Salary='$salary',Designation='$designation' WHERE E_Mobile_No='$mobileNo'";
 
         if ($conn->query($sql) === TRUE) {
-            echo "<br><h1>New record created successfully</h1>";
+            echo "<br><h1>Record Updated successfully</h1>";
+            echo "<a href='Pr_5_8.php'>Go back and see</a>";
+
         } else {
             echo "<h1>Error: " . $sql . "<br>" . $conn->error."</h1>";
         }
