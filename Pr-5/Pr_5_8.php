@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            Practical 5.3
+            Practical 5.8
         </title>
     </head>
     <body>
@@ -14,10 +14,10 @@
                 echo "<h1>Connection unsuccessfull please try again </h1>";
             }
 
-            $sql = "INSERT INTO Customer VALUES (101013, 'Darshan Vora', 'Surat','Mouse','9537118137')";
+            $sql = "DELETE FROM Customer WHERE Customer_Name='Nayan Pipalv';";
 
             if ($conn->query($sql) === TRUE) {
-                echo "<br><h1>New record created successfully</h1>";
+                echo "<br><h1>Record deleted successfully</h1>";
             } else {
                 echo "<h1>Error: " . $sql . "<br>" . $conn->error."</h1>";
             }
