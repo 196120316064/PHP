@@ -22,7 +22,7 @@
                             Employee Mobile No:
                         </td>
                         <td>
-                            <input name="mobileNo" readonly=true type="text" minlength="10" maxlength="10">
+                            <input name="mobileNo" type="text" minlength="10" maxlength="10">
                         </td>
                     </tr>
                     <tr>

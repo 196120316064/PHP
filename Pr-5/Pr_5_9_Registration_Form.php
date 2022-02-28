@@ -22,7 +22,7 @@
                     Employee Mobile No:
                 </td>
                 <td>
-                    <input name="mobileNo" readonly=true type="text" minlength="10" maxlength="10">
+                    <input name="mobileNo" type="text" minlength="10" maxlength="10">
                 </td>
             </tr>
             <tr>
@@ -30,7 +30,7 @@
                     Employee Email:
                 </td>
                 <td>
-                    <input name="emailId" type="text" maxlength="20">
+                    <input name="emailId" type="text">
                 </td>
             </tr>
             <tr>
@@ -63,6 +63,14 @@
                 </td>
                 <td>
                     <input name="designation" type="text" maxlength="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input name="password" type="text" maxlength="20">
                 </td>
             </tr>
             <tr>
